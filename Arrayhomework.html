@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1 id="fruitjuice"></h1>
+		<input type="button" value="All the fruits" onclick="fruits()">
+		<script>
+			
+
+			function fruits(){
+				 var fruits = ["apple", "orange", "kiwi"];
+            	 fruits.push(prompt("Enter a fruit"));
+				 fruits.sort();
+				 document.getElementById("fruitjuice").innerHTML = fruits.join(" with ")
+
+
+			}
+		</script>
+<!-- var fruits = [“apple”, “orange”, “kiwi”];
+
+Create a button that when clicked
+
+Prompts user for new fruit and adds it to the array
+
+Sort the array
+
+Display elements separated by “ with ” on the web page
+ -->
+	
+		</body>
+</html>
