@@ -1,0 +1,28 @@
+<head>
+    <title>Greatest of 3 numbers</title>
+</head>
+
+<body>
+    <h1>
+        Look at your console to see the biggest  number
+    </h1>
+    <script>
+        var num1 = prompt("Enter first number");
+        var num2 = prompt("Enter second number");
+        var num3 = prompt("Ener third number");
+        var greatest = 0;
+        if (num1>num2)
+        {
+            greatest = num1;
+        }
+        else
+        {
+            greatest = num2;
+        }
+        if (num3>greatest)
+        {
+            greatest = num3;
+        }
+        console.log(greatest + " is the biggest number.");
+    </script>
+</body>
