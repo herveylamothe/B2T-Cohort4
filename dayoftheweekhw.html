@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>
+			Hello there Today is
+		</h1>
+		<h1 id="display"></h1>
+		<script>
+			//var input prompt ('how old are you?');
+			//var age = parseInt();
+			//convert to interger b/c prompt gives me a string
+			// var input1 = parseInt( prompt('How many years have you lived here?') );
+			// var input2 = parseInt( prompt('How old are you?') );
+			// var input3 = parseInt( prompt('How old are your parents?') );
+
+
+			//if user is beterrn 25 and 55 they can enter page
+			//25 <== input && input <==55
+			//input >== && input <= 55
+			//if input 1 < 
+			// if(input1 < input2 && <input3){
+			// 	document.getElementById('display').innerHTML = 'Welcome  actual Adult!';
+
+			// }
+			// else if(input>55){
+			// 	document.getElementById('display').innerHTML = 'Do not trip on the way to bed!';
+
+			// }
+			// else if(input >= 20 && input <25){
+			// 	document.getElementById('display').innerHTML = 'You are almost cool';
+
+			// }
+			// else{
+			// document.getElementById('display').innerHTML = 'Child Be Gone!!';
+			// alert('Child Be Gone');
+			// }
+
+			// var pet = prompt('What kind of pet do you have?');
+			// switch(pet){
+			// 	case 'dog':
+			// 		console.log('Bark Bark');
+			// 		break;
+			// 	case 'cat':
+			// 	console.log('Meow Meow');	
+			// 	break;
+			// 	case 'rat':
+			// 	case'snake':
+			// 		console.log('Danger!')
+			// 	default:
+			// 	console.log('Sad !!!');
+			// }
+
+			var day = new Date().getDay();
+			switch(day){
+				case 0:
+				document.getElementById("display").innerHTML = 'Sunday';
+;
+					break;
+
+				case 1:
+			document.getElementById("display").innerHTML = 'Monday';
+					break;
+
+					case 2:
+			document.getElementById("display").innerHTML = 'Tuesday';
+					break;
+
+					case 3:
+			document.getElementById("display").innerHTML = 'Wednesday';
+					break;
+
+					case 4:
+			document.getElementById("display").innerHTML = 'Thursday';
+					break;
+
+					case 5:
+			document.getElementById("display").innerHTML = 'Friday';
+					break;
+
+					case 6:
+			document.getElementById("display").innerHTML = 'Saturday';
+					break;
+
+			}
+
+		</script>
+
+	</body>
+</html>
