@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2 id="text2"></h2>
+	<script>
+		
+		var num = 1;
+		while(num<= 100){
+			
+			if(num%3==0  && num%5==0){
+			document.getElementById('text2').innerHTML +='fizzbuzz' +"<br>";
+			}
+
+			else if(num%3==0){
+			document.getElementById('text2').innerHTML +='fizz' +"<br>";
+			}
+
+			else if(num%5==0){
+			document.getElementById('text2').innerHTML +='buzz' +"<br>";
+			}
+
+			else {
+				document.getElementById('text2').innerHTML +=num +"<br>";
+			}
+
+			num++;
+			
+ 
+		}
+			
+	</script>
+
+</body>
+</html>
