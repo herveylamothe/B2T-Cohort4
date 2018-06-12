@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		 <style>
+        #box {            
+            height: 150px;
+            width: 175px;
+            background-color: red;
+        }
+    </style>
+
+		<div id="box"></div>
+	<input id="onbutton" type="button" value="on">
+		<script>
+			function changeText(){
+				if(document.getElementById('onbutton').value =='on'){
+					document.getElementById('onbutton').value = 'off';
+				}
+				
+				else{
+					document.getElementById('onbutton').value = 'on';
+
+				}
+
+			}
+
+			document.getElementById('onbutton').addEventListener('click', changeText);
+
+
+		</script>
+
+
+	</body>
+</html>
